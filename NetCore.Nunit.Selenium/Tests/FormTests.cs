@@ -24,7 +24,7 @@ namespace NetCore.Nunit.Selenium.Tests
 
             Assert.AreEqual(testMessage, actualMessage, "Actual Message on form page doesn't match expected message");
 
-            //Navigate to the checkbox page
+            //Navigate to the checkbox page..
             formPage.GotoCheckBoxPage();
 
             var checkboxPage = new CheckboxPage(driver);
